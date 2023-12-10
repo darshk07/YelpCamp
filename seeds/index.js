@@ -4,7 +4,7 @@ const { places, descriptors } = require('./seedHelpers');
 mongoose.set('strictQuery', true);
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb://127.0.0.1:27017/yelp-camp', {
+mongoose.connect("mongodb+srv://darshkejriwal:O1Y9V1pimol2fyNL@cluster0.z7bv7ab.mongodb.net/", {
     useUnifiedTopology: true
 })
 
